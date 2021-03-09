@@ -1,24 +1,61 @@
+"take care, batch, feed and breed digital pets of different species that you can store in QR/NFC physical cards with their sales/shipping attached to NFTs" (embedded tweet)
+
+footer link for Twitter and Discord
 Sui Generis font
-
-plasmmer.com
-https://docs.ipfs.io/concepts/dnslink/#publish-using-a-subdomain
-
-"Decentralized, open-source, distributed tech "company" based on DAO and Ethereum token's economy." > "Enough of the toxic tech bros?" "Are the new economy (cryto/blockchain/DeFi/NFTs BAD FOR THE ENVIRONMENT?" "Decentralized, distributed tech "company" as a DAO using Ethereum's economy."
-
 Interacting with Plasmmer (twts)
+
+working but alpha/beta products: NewTab addn, Plasmozill Firefloflis (soon, dogecoin icon), Fhrome, IC (all of these points to plasmmer/brwsr
+
+http://plasmmer.com/ (site is under construction. please dont screenshot 📸)
+
+page with in-draft projects: design app (powerpoint-based background clipper)
+
+UniOS site /media/daniell/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/Plasmmer/orgs/Floflis/2. HumaneOS
+Gamlr twitter and site /media/daniell/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/ultracreator.github.io
+Phonemon > Tamigucho site and link its Facebook pages and old twitter acc /media/daniell/B/1/personal/projects/Phonemon
+Floflis site with its twitter (also, its .eth site on twt)
+
+"Floflis also have a sub-project called "Screens", which is web-based and can work on browser, on B2G (as a replacement for FirefoxOS/KaiOS/GerdaOS), on a JADE fork (Desktop Environment for Linux) or on DCRS" (link to B2G, FirefoxOS, KaiOS, GerdaOS, JADE Screens and DCRS' sites)
+Screens site contains link to test (alpha, lots of nt implemented) and Adventus
+
+"Floflis Platform is a apps' platform for the web or can work as a app itself (like PortableApps Platform is a app to run apps - in this case HTML5Apps Platform), which can also come as a standalone OS (the case of UniOS, which is governed by both UNI and FLOF - 50%/50% - tokens). Floflis simply can work nearly anywhere" (link to HTML5Apps Platform, UniOS, UNI () and FLOF () sites)
+
+"Plasmmer Developers (soon - includes PEHTML, FrameworkJS, CommonDesign and Eventlr)" (link to PEHTML, FrameworkJS, CommonDesign and Eventlr)
+Eventlr site: games? we recommend GDevelop
+
+"IMPORTANT: currently our economy runs in the sidechain XDai, but we will soon migrate to Ethereum's L2 Optimism (or probably mainly deployed on Ethereum and bridged on Optimism)" (link to XDai, Optimism twt, Optimism site)
+
+token allocation
+
+Update CID in ENS
+https://docs.ipfs.io/concepts/dnslink/#publish-using-a-subdomain (plasmmer.com and others to task list)
+
+Utility: use PLA tokens for voting, purchasing some special products and unlocking some Element rooms
+
+buy our NFT "I believed in Plasmmer" in Rrible as a way to prove in your ETH address
+
+annotate in your calendr. join Untitled Show in Apr and earn a Proof of Attendnce badge.
 
 Buy hardware parts (such as RPI), 3D print, and sell for the same value you bought the hardware parts: and earn PLA tokens.
 
+Update CID in ENS
+https://docs.ipfs.io/concepts/dnslink/#publish-using-a-subdomain
+
 Referrals (disclose DANI/DANIMESQ referrals)
 
-Utility: use PLA tokens for 
-
-Soon: PLA will move out from XDAI and minted on ETH mainnet+Optimism
-
-prototypes: chtp of cmmnctr
-
-working but alpha/beta products: NewTab addn, Plasmozill Firefloflis (soon, dogecoin icon)
+Update CID in ENS
+https://docs.ipfs.io/concepts/dnslink/#publish-using-a-subdomain
 
 Migrate to Hugo blog, use ZH and other lngs
 
-http://plasmmer.com/
+Built with Site Maker (Site Maker, subscribe when dl available)
+
+Web3Updates
+Site with download for Fhrome/Firefloflis
+"We use IPFS' DNSLink" "Enjoy the maximum of our decentralized experience. Get the NewTab extension or Fhrome/Firefloflis."
+
+diversity Manifesto/guidelines
+
+app: manage our DAO, vote, propose new product, contribute/work in a product, take % of vault, liquidity mining
+
+properties for upstream fmwk: social icons, z-index for modals, modal position
