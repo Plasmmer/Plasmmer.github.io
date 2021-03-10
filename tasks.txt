@@ -1,27 +1,21 @@
-"take care, batch, feed and breed digital pets of different species that you can store in QR/NFC physical cards with their sales/shipping attached to NFTs" (embedded tweet)
+Phonemon > Tamigucho site and link its Facebook pages and old twitter acc /media/daniell/B/1/personal/projects/Phonemon
 
-footer link for Twitter and Discord
-Sui Generis font
-Interacting with Plasmmer (twts)
-
-working but alpha/beta products: NewTab addn, Plasmozill Firefloflis (soon, dogecoin icon), Fhrome, IC (all of these points to plasmmer/brwsr
-
-http://plasmmer.com/ (site is under construction. please dont screenshot 📸)
+working but  products: NewTab addn, Plasmozill Firefloflis (soon, dogecoin icon), Fhrome, IC (all of these points to plasmmer/brwsr
 
 page with in-draft projects: design app (powerpoint-based background clipper)
 
+"Plasmmer Developers (soon - includes PEHTML, FrameworkJS, CommonDesign and Eventlr)" (link to PEHTML, FrameworkJS, CommonDesign and Eventlr)
+Eventlr site: games? we recommend GDevelop
+
+http://plasmmer.com/
+
 UniOS site /media/daniell/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/Plasmmer/orgs/Floflis/2. HumaneOS
-Gamlr twitter and site /media/daniell/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/ultracreator.github.io
-Phonemon > Tamigucho site and link its Facebook pages and old twitter acc /media/daniell/B/1/personal/projects/Phonemon
 Floflis site with its twitter (also, its .eth site on twt)
 
 "Floflis also have a sub-project called "Screens", which is web-based and can work on browser, on B2G (as a replacement for FirefoxOS/KaiOS/GerdaOS), on a JADE fork (Desktop Environment for Linux) or on DCRS" (link to B2G, FirefoxOS, KaiOS, GerdaOS, JADE Screens and DCRS' sites)
 Screens site contains link to test (alpha, lots of nt implemented) and Adventus
 
 "Floflis Platform is a apps' platform for the web or can work as a app itself (like PortableApps Platform is a app to run apps - in this case HTML5Apps Platform), which can also come as a standalone OS (the case of UniOS, which is governed by both UNI and FLOF - 50%/50% - tokens). Floflis simply can work nearly anywhere" (link to HTML5Apps Platform, UniOS, UNI () and FLOF () sites)
-
-"Plasmmer Developers (soon - includes PEHTML, FrameworkJS, CommonDesign and Eventlr)" (link to PEHTML, FrameworkJS, CommonDesign and Eventlr)
-Eventlr site: games? we recommend GDevelop
 
 "IMPORTANT: currently our economy runs in the sidechain XDai, but we will soon migrate to Ethereum's L2 Optimism (or probably mainly deployed on Ethereum and bridged on Optimism)" (link to XDai, Optimism twt, Optimism site)
 
@@ -58,4 +52,6 @@ diversity Manifesto/guidelines
 
 app: manage our DAO, vote, propose new product, contribute/work in a product, take % of vault, liquidity mining
 
-properties for upstream fmwk: social icons, z-index for modals, modal position
+properties for upstream fmwk: social icons, z-index for modals, modal position, fonts (repo for plasmmer pjs as fmwk fork)
+
+/home/daniell/Desktop/Plasmmer/fonts/Sui Generis V2
