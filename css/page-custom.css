@@ -6,13 +6,15 @@ background:#e3e2e2!important
 }
 
 .header, header {
-    background: #613000!important;
+    background: #49E7D3!important;
+    /*border-bottom: 1px dotted #000;*/
 }
 
 .logo,logo {
-    background: url(../icon.ico) no-repeat no-repeat 3px 5px;
-    background-size: 41px;
+    background: url(../logotype.svg) no-repeat no-repeat 3px 5px;
+    background-size: 220px;
     text-indent: 49px;
+    min-width: 225px;
 }
 
 ::selection {
