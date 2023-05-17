@@ -1,0 +1,6 @@
+GitCratic:
+A IPFS app for creating organizations (DAOs) with git repos (Pando).
+Can also store repos on own user.
+Open to fork Pando to support Pijul.
+
+GitFood
