@@ -16,6 +16,7 @@ background:#e3e2e2!important
     text-indent: 49px;
     min-width: 225px;
 }
+.logo, logo:hover{background-color:rgba(0, 0, 0, 0.12)}
 
 ::selection {
     background: #613000!important;
@@ -48,4 +49,4 @@ button.color:hover{background:#fff;color:#00964a}
     background-color:#00964a!important;
 }
 
-.footer,footer{background:#00964a}
+.footer,footer{background:#00E271;color:#FDFF38}
