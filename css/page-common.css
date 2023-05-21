@@ -1,10 +1,13 @@
 /*
-	Framework.js r1 | (c) 2014 - 2018 Plasmmer | https://plasnerd.github.io/Framework.js/LICENSE.md 
+	Framework.js r2 | (c) 2014 - 2019 Plasnerd | http://framework.js.org/LICENSE.md
 */
 
 nopehtml{display:none}
 
 body{background:rgb(239, 239, 239);font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;-webkit-font-smoothing:antialiased;line-height:inherit!important;margin:0;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+
+/* Temp, while C2 is used for creating apps */
+#splash, #html{background:rgb(239, 239, 239);top: 0px!important;left: 0px!important;position: absolute!important;width: calc(100% + 0px) !important;height: calc(100% + 0px) !important;overflow: hidden!important;}
 
 .elevation-0 {
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2), 0px 0px 0px 0px rgba(0,0,0,0.14), 0px 0px 0px 0px rgba(0,0,0,0.12) !important;
@@ -86,12 +89,13 @@ body{background:rgb(239, 239, 239);font-family: Roboto,-apple-system,BlinkMacSys
 
 .round{border-radius:50%}
 
-a{color:#0074D9!important}
-a:visited{color:#5b6ed6!important}
-a:hover{font-weight:bold;text-decoration:none}
-a:active{opacity:0.5}
+a:not(.btn){color:#0074D9!important}
+a:visited:not(.btn){color:#5b6ed6!important}
+a:hover:not(.btn):not(.breaditem){font-weight:bold;text-decoration:none}
+a:active:not(.btn):not(.breaditem){opacity:0.5}
 a .badge{color:#fff!important;text-decoration:none}
 a button{text-decoration:none}
+a.breaditem{text-decoration:none}
 a > li:hover{font-weight:normal!important}
 a > button:hover{font-weight:normal!important}
 
@@ -99,10 +103,27 @@ a > button:hover{font-weight:normal!important}
 .header,header:hover{box-shadow:0px 0px 25px 5px #000}
 .header,header:active{box-shadow:0px 0px 25px 9px #000}
 
-.logo, logo{position:absolute;min-width: 47px;height:52px;font-size: 38px;color:#fff;transition:0.3s cubic-bezier(0.25, 0.8, 0.5, 1);padding: 0 5px 1px 5px;}
-.logo,logo:hover{background-color: rgba(255, 255, 255, 0.12);}
-.logo,logo:active{opacity:0.2}
-.logo, logo .badge{top:-13px;margin-left:-5px;font-size:initial!important}
+logo, .logo{top:8px}
+logo, .logo, .breaditem {    
+    position: relative;
+    min-width: 47px;
+    font-size: 30px;
+    color: #fff!important;
+    border-radius: 10px;
+    padding: 0px 0px 8px 3px;
+}
+a.breaditem logo{font-size:18px!important;color:rgba(255, 255, 255, 0.5)!important}
+.badge.note, logo .badge, .logo .badge{    top: -11px;
+    margin-left: -5px;
+    font-size: 12px!important;
+    background: #ff9800;
+    color: #000000de!important;
+    border: 1px solid #000000de;}
+
+a.breaditem{top:5px!important;transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);border-right:1px solid}
+a.breaditem:hover{background-color:rgba(255, 255, 255, 0.12)}
+a.breaditem:active{opacity:0.2}
+.breaditem.active{font-size:22px;color:rgba(255, 255, 255, 0.7)!important}
 
 .content{width:100%;height:calc(100% - 53px);top:53px;position:fixed;overflow-x:hidden;overflow-y:scroll}
 
@@ -309,10 +330,10 @@ ul.tiled.longcard li div{width:100%;height:100%;opacity:0.5;position: relative;t
 }
 
 header nav {
-    position: absolute;
+    float: right;
     right: 0;
     margin-right: 20px;
-	box-sizing: initial!important;
+    box-sizing: initial!important;
 }
 
 header nav zeronet {
@@ -527,6 +548,21 @@ footer:active .footer-shadow{box-shadow:0px 16px 26px -1px black}
 
 .footer,footer{background:#00A185;width:100%;color:#efefef;padding:10px;box-sizing:border-box}.social-icons{float:right}.social-icons img{margin-left:10px}.social-buttons{margin-top:55px;float:right}footer a{color:#FFFFFF;opacity:0.5}footer a:hover{opacity:1}.copyright, copyright{width:100%;display:block;margin-top:218px}.copyright, copyright a{color:#fff!important}.copyright, copyright center a{color:#fff!important}
 
+.navdrawer-nav .nav-link{color:rgba(0,0,0,.87)!important}
+.navdrawer-nav .nav-link.active, .navdrawer-nav .nav-link:active{color:#00A185!important;border-left:5px solid}
+
+.list-group-item.nav-link{cursor:pointer}
+.list-group-item.nav-link:hover{background-color:rgba(0,0,0,.12)}
+
+.linkish{cursor:pointer;-webkit-user-select:none!important;-moz-user-select:none!important;user-select:none!important}
+.linkish:hover{box-shadow: 0 0 4px 0 rgba(0,0,0,.14), 0 3px 4px 0 rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2)}
+.linkish:active{box-shadow: inset 0 0 4px 0 rgba(0,0,0,.14), inset 0 3px 4px 0 rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2)}
+
+.navdrawer-nav .nav-link::before{background-color:rgba(255, 255, 255, 0)!important}
+
+/* Fix .list-group-item background */
+.list-group-item{background-color:transparent!important}
+
 @media(max-width:8in){
 .logo, logo{font-size:19px;line-height:59px}
 .textarea, textarea{width: calc(100% + -55px)}
@@ -551,4 +587,4 @@ button.color{padding:15px;font-size:19px}
 .input,input{padding:10px;font-size:16px}
 ul.tiled.longcard li{width:100%}
 button.sticky.left{top:-55px!important}
-}
+}          
